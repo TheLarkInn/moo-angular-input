@@ -1,0 +1,13 @@
+<div class="mooInput Field u-pV0 u-cf" ng-class="mooInputCtrl.inputNgClassObject">
+  <label ng-if="mooInputCtrl.shouldShowLabel()" for="field1" ng-class="mooInputCtrl.labelClass" class="Field-label">{{mooInputCtrl.label}}</label>
+  <div class="Field-addonBox">
+    <span ng-if="mooInputCtrl.shouldShowHeadAddOn()" ng-class="mooInputCtrl.headAddOnClass + ' ' + mooInputCtrl.headAddOnIcon" class="Field-addon head">
+      {{mooInputCtrl.headAddOn}}
+    </span>
+    <input ng-model="mooInputCtrl.inputModel" type="mooInputCtrl.getInputType()" class="Input" />
+    <span ng-if="mooInputCtrl.shouldShowTailAddOn()" ng-class="mooInputCtrl.tailAddOnClass + ' ' + mooInputCtrl.tailAddOnIcon" class="Field-addon tail u-bgWhite">
+      {{mooInputCtrl.tailAddOn}}
+    </span>
+  </div>
+  <span ng-if="mooInputCtrl.shouldShowDetail()" class="Field-detail">{{mooInputCtrl.detail}}</span>
+</div>
