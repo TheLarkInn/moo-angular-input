@@ -1,6 +1,6 @@
 {
   "name": "moo-angular-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AngularJS Directive Component of the UI-Toolkit's Input for Mutual of Omaha's DXD Team",
   "main": "dist/index.js",
   "scripts": {
